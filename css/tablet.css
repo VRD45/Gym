@@ -1,0 +1,190 @@
+/*Navigation bar section*/
+#logo {
+	width:20%;
+	text-align:left;
+}
+#logo strong {
+	font-size:5.5vw;
+}
+#logo b{
+	margin-left:70px;
+	font-size:3.5vw;
+}
+#navbar ul{
+	margin-left:40px;
+}
+#navbar ul li{
+	padding-top:50px;
+	padding-left:10px;
+}
+#navbar li a{
+	font-size:2vw;
+}
+/*Home section*/
+#home .fat{
+	left:50px;
+	top:300px;
+}
+#home .fit{
+	left:60px;
+	top:360px;
+}
+#home .reg{
+	left:80px;
+	top:470px;
+}
+/*Service section*/
+#service{
+	height:2120px;
+}
+#facilities{
+	height:500px;
+}
+#facilities .facilitie{
+	padding:10px;
+}
+#facilities img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:190px;
+}
+#facilities h1{
+	font-size:2.7vw;
+}
+#facilities p{
+	font-size:1.9vw;
+}
+#gallery{
+	height:400px;
+}
+#gallery .galleries{
+	padding:10px;
+}
+#gallery .galleries img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:270px;
+}
+#package{
+	height:500px;
+}
+#package .packages{
+	width:45%;
+}
+#package fieldset{
+	padding:30px;
+}
+#package legend{
+	font-size:2.5vw;
+}
+#package .packages h2{
+	font-size:2vw;
+}
+.subheading{
+	margin-top:70px;
+	font-size:2.5vw;
+}
+/*Schedule section*/
+#schedule{
+	height:450px;
+}
+#schedule .time{
+	width:31%;
+	padding:5px;
+}
+#schedule fieldset{
+	padding:30px;
+}
+#schedule legend{
+	font-size:2.3vw;
+}
+#schedule .time h2{
+	padding:10px;
+	font-size:1.8vw;
+}
+/*Trainer section*/
+#trainer{
+	height:450px;
+}
+#trainer .trainers{
+	padding:20px 8px;
+}
+#trainer h1{
+	font-size:2.5vw;
+}
+#trainer .trainers img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	height:200px;
+}
+/*Contact section*/
+#contact{
+	height:850px;
+}
+#contact .register{
+	padding:10px;
+}
+#contact .register fieldset{
+	padding:10px;
+}
+#contact .register legend{
+	font-size:2.1vw;
+}
+#contact .register fieldset textarea{
+	width:90%;
+	padding:10px;
+}
+#contact .register fieldset input{
+	width:90%;
+	padding:8px;
+}
+#contact  button{
+	padding:20px 10px;
+}
+#contact .box{
+	width:45%;
+	padding:20px 10px;
+}
+#contact .msgbox{
+	width:100%;
+	padding: 20px 10px;
+}
+#contact .submit{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+#contact .block{
+	width:100%;
+	height:150px;
+	padding:5px;
+}
+#contact .block fieldset{
+	padding:20px;
+}
+#contact .block legend{
+	font-size:2.1vw;
+}
+#contact .block h2{
+	padding:8px;
+	font-size:2vw;
+}
+#contact .block a{
+	text-align:center;
+	padding:8px;
+	font-size:2vw;
+}
+#contact .block address{
+	padding:8px;
+	font-size:2vw;
+}
+/*Footer Section*/
+.copyright {	
+	font-size:2vw;
+}

@@ -1,0 +1,455 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+/*Navigation bar section*/
+#logo {
+	width:15%;
+	float:left;
+}
+#logo strong {
+	margin:10px;
+	width:100%;
+	font-size:4vw;
+	color:blue;
+	opacity:0.7;
+}
+#logo b{
+	margin-top:0px;
+	margin-left:110px;
+	font-size:2vw;
+	color:black;
+	opacity:1.0;
+}
+#navbar{
+	position:fixed;
+	width:100%;
+	margin:0px;
+	height:110px;
+	background-color:white;
+	opacity:1.0;
+	z-index:1;
+}
+#navbar ul{
+	margin-left:40px;
+	list-style-type:none;
+}
+#navbar ul li{
+	float:left;
+	padding:40px 30px;
+}
+#navbar li a{
+	color:black;
+	font-family: Georgia, serif;
+	font-size:1.5vw;
+	text-decoration:none;
+}
+#navbar li a:hover{
+	color:blue;
+}
+#navbar .drophead{
+	position:relative;
+}
+#navbar .dropmenu{
+	display:none;
+	position:absolute;
+	width:150%;
+	font-size:15px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	z-index:1;
+}
+#navbar .drophead:hover .dropmenu{
+	display:block;
+}
+#navbar .dropmenu a{
+	text-align:center;
+}
+#navbar .dropmenu a:hover{
+	color:blue;
+	opacity:0.7;
+}
+/*Home section*/
+#home{
+	display:flex;
+	position:relative;
+	top:0px;
+	left:0px;
+	background-image:url('../images/home-bg.jpg');
+	width:100%;
+	height:800px;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#home .fat{
+	position:absolute;
+	left:70px;
+	top:170px;
+	padding-bottom:40px;
+}
+#home .fit{
+	position:absolute;
+	left:80px;
+	top:250px;
+	padding-bottom:40px;
+}
+#home strong{
+	font-size:5vw;
+	color:skyblue;
+	padding:20px;
+}
+#home p{
+	font-size:4.5vw;
+	color:white;
+}
+#home .reg{
+	position:absolute;
+	left:80px;
+	top:450px;
+}
+#home button{
+	padding:20px;
+	font-size:1.5vw;
+	border:2px solid white;
+	background-color:skyblue;
+	border-radius:10px;
+	cursor:pointer;
+}
+#home button a{
+	text-decoration:none;
+}
+/*Service section*/
+#service{
+	background-color:black;
+	width:100%;
+	height:3420px;
+}
+#facilities{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#facilities .facilitie{
+	width:30%;
+	padding:20px;
+	float:left;
+}
+#facilities img{
+	z-index=-1;
+}
+
+#facilities h1{
+	color:white;
+	font-size:2vw;
+	text-align:center;
+	padding:10px;
+}
+#facilities h1:hover{
+	color:blue;
+}
+#facilities p{
+	display:none;
+	position:absolute;
+	background-color:blue;
+	opacity:0.6;
+	color:white;
+	font-size:1vw;
+}
+#facilities .facilitie:hover p{
+	display:block;
+}
+#gallery{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#gallery .galleries{
+	width:30%;
+	padding:20px;
+	float:left;
+}
+#gallery .galleries img{
+	width:410px;
+	height:270px;
+}
+#package{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#package .packages{
+	width:35%;
+	padding:10px;
+	float:left;
+}
+#package .ad{
+	width:15%;
+	padding:10px;
+	float:left;
+}
+#package .ad pre{
+	text-align:centre;
+	color:white;
+	font-size:1.5vw;
+}
+#package fieldset{
+	border-color:blue;
+	background-color:black;
+	padding:100px;
+}
+#package legend{
+	color:blue;	
+	text-align:center;
+	font-size:1.8vw;
+}
+#package .packages h2{
+	color:white;	
+	text-align:center;
+	padding:20px;
+	font-size:1.5vw;
+}
+#package .contact h2:hover{
+	color:blue;	
+}
+#membership{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#membership .memberfac{
+	position:relative;
+	width:50%;
+	float:left;
+}
+#membership .memberfac img{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:95%;
+	height:400px;
+	z-index:-1;
+}
+#membership .memberfac img:hover{
+	opacity:0.3;
+	width:96%;
+}
+#membership .memberfac .desc{
+	position:absolute;
+	top: 50%;
+    left: 20%;
+}
+#membership .memberfac h2{
+	color:white;
+	padding:30px 0px;
+}
+#membership .memberfac h4{
+	color:white;
+	padding:10px 0px;
+}
+#membership .details{
+	padding:20px;
+	width:90%;
+}
+#membership .details h1{
+	text-align:center;
+	color:white;
+	padding:20px 0px;
+}
+#membership .details h2{
+	text-align:center;
+	color:white;
+	padding:10px 0px;
+}
+.heading{
+	margin-top:90px;
+	margin-left:300px;
+	width:100%;
+	text-align:centre;
+	font-size:3vw;
+	color:white;
+	padding:20px;
+	float:left;
+}
+.subheading{
+	margin-top:90px;
+	margin-left:30px;
+	width:100%;
+	font-size:2vw;
+	color:blue;
+	padding:20px;
+	float:left;
+}
+/*Schedule section*/
+#schedule{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#schedule .time{
+	width:30%;
+	padding:20px;
+	float:left;
+}
+#schedule fieldset{
+	border-color:blue;
+	background-color:black;
+	padding:100px;
+}
+#schedule legend{
+	color:blue;	
+	text-align:center;
+	font-size:1.8vw;
+}
+#schedule .time h2{
+	color:white;	
+	text-align:center;
+	padding:20px;
+	font-size:2vw;
+}
+#schedule .time h2:hover{
+	color:blue;	
+}
+/*Trainer section*/
+#trainer{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#trainer .trainers{
+	width:30%;
+	padding:20px;
+	float:left;
+}
+#trainer h1{
+	color:white;
+	font-size:2vw;
+	text-align:center;
+	padding:10px;
+}
+#trainer h1:hover{
+	color:blue;
+}
+/*Contact section*/
+#contact{
+	background-color:black;
+	width:100%;
+	height:850px;
+}
+#contact .register{
+	width:45%;
+	padding:20px;
+	float:left;
+}
+
+#contact .register fieldset{
+	border-color:blue;
+	background-color:black;
+	padding:40px;
+}
+#contact .register legend{
+	color:blue;	
+	text-align:center;
+	font-size:1.8vw;
+}
+#contact .register fieldset textarea{
+	width:93%;
+	border-color:blue;
+	border-radius:5px;
+	background-color:white;
+	padding:10px;
+}
+#contact .register fieldset input{
+	width:100%;
+	border-color:blue;
+	border-radius:5px;
+	background-color:white;
+	padding:10px;
+}
+#contact  button{
+	width:70%;
+	border-color:white;
+	border-radius:5px;
+	background-color:blue;
+	padding:10px;
+	color:white;
+	font-size:1.5vw;
+	align-items:center;
+	cursor:pointer;
+}
+#contact .box datalist{
+	background-color:white;
+}
+#contact option{
+	color:black;
+}
+#contact .box{
+	float:left;
+	width:40%;
+	padding:20px 20px;
+}
+#contact .msgbox{
+	width:90%;
+	float:left;
+	padding:20px 30px;
+}
+#contact .submit{
+	margin-left:150px;
+}
+#contact .block{
+	width:43%;
+	height:210px;
+	padding:20px;
+	float:left;
+}
+#contact .block:last-child{
+	width:100%;
+}
+#contact .block fieldset{
+	border-color:blue;
+	background-color:black;
+	padding:40px;
+}
+#contact .block legend{
+	color:blue;	
+	text-align:center;
+	font-size:1.8vw;
+}
+#contact .block h2{
+	color:white;	
+	text-align:center;
+	padding:10px;
+	font-size:1.5vw;
+}
+#contact .block a{
+	color:white;	
+	text-align:center;
+	padding:10px;
+	font-size:1.5vw;
+	text-decoration:none;
+}
+#contact .block address{
+	color:white;	
+	text-align:center;
+	padding:10px;
+	font-size:1.5vw;
+}
+/*Footer Section*/
+footer{
+	position:absolute;
+	width:100%;
+	height:70px;
+	background-color:blue;
+	opacity:0.6;
+	z-index:-1;
+}
+.copyright {	
+	color:white;
+	opacity:1.0;
+	font-size:1.5vw;
+	text-align:center;
+}

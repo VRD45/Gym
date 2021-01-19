@@ -1,0 +1,235 @@
+/*Navigation bar section*/
+#logo {
+	width:100%;
+	float:left;
+	text-align:center;
+}
+#logo strong {
+	font-size:7vw;
+	color:blue;
+}
+#logo b{
+	margin-left:50px;
+	font-size:5vw;
+}
+#navbar{
+	height:140px;
+}
+#navbar ul{
+	margin-left:25px;
+}
+#navbar ul li{
+	float:left;
+	padding:20px 8px;
+}
+#navbar li a{
+	font-size:3vw;
+}
+/*Home section*/
+#home{
+	background-image:url('../images/home-bg.png');
+}
+#home .fat{
+	left:130px;
+	top:220px;
+}
+#home .fit{
+    left:140px;
+	top:280px;
+}
+#home strong{
+	font-size:10vw;
+}
+#home p{
+	font-size:9.5vw;
+}
+#home .reg{
+	left:170px;
+	top:400px;
+}
+#home button{
+	padding:20px;
+	font-size:3vw;
+}
+/*Service section*/
+#service{
+	height:3420px;
+}
+#facilities{
+	height:900px;
+}
+#facilities .facilitie{
+	width:100%;
+	padding:20px;
+}
+#facilities img{
+	width:40%;
+	left:0px;
+	overflow:auto;
+	float:left;
+}
+#facilities h1{	
+	font-size:3vw;
+}
+#facilities p{
+	font-size:2vw;
+	right:150px;
+}
+#gallery{
+	height:800px;
+}
+#gallery .galleries{
+	width:100%;
+}
+#gallery .galleries img{
+	float:right;
+    width:40%;
+	height:170px;
+}
+#package{
+	height:410px;
+}
+#package .packages{
+	width:45%;
+}
+#package fieldset{
+	padding:10px;
+}
+#package legend{
+	font-size:3vw;
+}
+#package .packages h2{
+	padding:20px;
+	font-size:2.5vw;
+}
+#membership{
+	height:700px;
+}
+#membership .memberfac{
+	width:100%;
+}
+#membership .memberfac img{
+	padding:20px;
+	width:90%;
+	height:300px;
+}
+#membership .memberfac img:hover{
+	width:95%;
+}
+#membership .details{
+	padding:30px;
+}
+#membership .details h1{
+	padding:20px 0px;
+}
+#membership .details h2{
+	padding:10px 0px;
+}
+/*Schedule section*/
+#schedule{
+	height:650px;
+}
+#schedule .time{
+	width:90%;
+	padding:10px;
+}
+#schedule fieldset{
+	padding:20px;
+}
+#schedule legend{
+	font-size:3vw;
+}
+#schedule .time h2{
+	padding:10px;
+	font-size:2.5vw;
+}
+/*Trainer section*/
+#trainer{
+	height:850px;
+}
+#trainer .trainers{
+	width:90%;
+	padding:10px;
+}
+#trainer .trainers img{
+	width:40%;
+	height:150px;
+	float:left;
+}
+#trainer h1{
+	font-size:2.8vw;
+}
+/*Contact section*/
+#contact{
+	height:1150px;
+}
+#contact .register{
+	width:90%;
+	padding:10px;
+}
+#contact .register fieldset{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+}
+#contact .register legend{
+	font-size:3.5vw;
+}
+#contact .register fieldset textarea{
+	width:80%;
+}
+#contact .register fieldset input{
+	width:80%;
+}
+#contact  button{
+	font-size:2vw;
+}
+#contact .box,.msgbox{
+	width:100%;
+	padding:10px 20px;
+}
+#contact .submit{
+	margin-left:70px;
+}
+#contact .block{
+	width:40%;
+	height:140px;
+	padding:10px;
+}
+#contact button{
+	padding:10px;
+	font-size:2.5vw;
+}
+#contact .block fieldset{
+	padding:20px;
+}
+#contact .block legend{
+	font-size:3vw;
+}
+#contact .block h2{
+	font-size:2.5vw;
+}
+#contact .block a{
+	font-size:2.5vw;
+}
+#contact .block address{
+	font-size:2.5vw;
+}
+/*Footer Section*/
+.copyright {	
+	font-size:3vw;
+}
+.heading{
+	margin-top:130px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:5vw;
+}
+.subheading{
+	margin-top:90px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:3.5vw;
+}
