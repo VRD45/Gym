@@ -155,11 +155,10 @@ html {
 #facilities p{
 	display:none;
 	position:absolute;
-	background-color:blue;
 	text-align:center;
 	opacity:0.6;
-	color:white;
-	font-size:1vw;
+	color:blue;
+	font-size:1.5vw;
 }
 #facilities .facilitie:hover p{
 	display:block;
@@ -449,4 +448,26 @@ footer{
 	opacity:1.0;
 	font-size:1.5vw;
 	text-align:center;
+}
+/*heading and subheading*/
+.heading{
+	margin-top:90px;
+	text-align:left;
+	width:70%;
+	font-size:3vw;
+	color:white;
+	padding:20px;
+	float:left;
+}
+.heading::before{
+	content:"-- ";
+}
+.subheading{
+	margin-top:90px;
+    text-align:center;
+	width:90%;
+	font-size:2vw;
+	color:blue;
+	padding:20px;
+	float:left;
 }
