@@ -30,14 +30,14 @@
 	background-image:url('../images/home-bg.png');
 }
 #home .fat{
-	top:220px;
+	top:250px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	padding-bottom:10px;
 }
 #home .fit{
-	top:280px;
+	top:310px;
        display:block;
        margin-left:auto;
        margin-right:auto;
