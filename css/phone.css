@@ -52,15 +52,12 @@
 	font-size:3vw;
 }
 /*Service section*/
-#service{
-	height:3420px;
-}
 #facilities{
 	height:900px;
 }
 #facilities .facilitie{
-	width:100%;
-	padding:20px;
+	width:80%;
+	padding:10px;
 }
 #facilities img{
 	width:40%;
@@ -79,18 +76,25 @@
 	height:800px;
 }
 #gallery .galleries{
-	width:100%;
+	width:90%;
+	padding:8px;
 }
 #gallery .galleries img{
-	float:right;
-    width:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    width:80%;
 	height:170px;
 }
 #package{
 	height:410px;
 }
 #package .packages{
-	width:45%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	padding:20px;
 }
 #package fieldset{
 	padding:10px;
@@ -109,15 +113,15 @@
 	width:100%;
 }
 #membership .memberfac img{
-	padding:20px;
+	padding:10px;
 	width:90%;
 	height:300px;
 }
 #membership .memberfac img:hover{
-	width:95%;
+	width:90%;
 }
 #membership .details{
-	padding:30px;
+	padding:10px;
 }
 #membership .details h1{
 	padding:20px 0px;
@@ -222,14 +226,8 @@
 }
 .heading{
 	margin-top:130px;
-	margin-left:auto;
-	margin-right:auto;
 	font-size:5vw;
 }
 .subheading{
-	margin-top:90px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
 	font-size:3.5vw;
 }
